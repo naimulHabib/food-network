@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  /* font-family: "Alegreya Sans", sans-serif; */
+}
+/* ------------------------------------Utility start -----------------------*/
+.u-tomato {
+  color: tomato;
+}
+.u-section {
+  display: flex;
+}
+.u-button {
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(rgb(168, 92, 41), tomato);
+  padding: 1rem 3rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+}
+/* ------------------------------------Utility end-----------------------*/
+.navigation {
+  height: 4rem;
+  width: 95vw;
+  margin: 0 auto;
+  /* background-color: #000; */
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #000;
+  margin-top: 0.6rem;
+  font-size: 1.5rem;
+}
+.navigation ul {
+  /* margin: 1.5rem; */
+  margin-top: 1rem;
+}
+.navigation ul li {
+  display: inline;
+  margin: 0.8rem;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+/* ------------------------------------NavBar End --------------------------------------- */
+/* ------------------------------------NavBar End --------------------------------------- */
+
+/* --------------------------------Order Food Section start ------------------------------ */
+.main-section {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 5rem;
+  /* background-color: teal; */
+}
+.half-width {
+  width: 50%;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+.main-content {
+  margin-top: 7rem;
+}
+.main-img {
+  width: 95%;
+}
+h1 {
+  font-size: 3.2rem;
+}
+.main-paragraph {
+  margin: 2rem 0 4rem;
+  font-size: 1.5rem;
+  word-spacing: 0.4rem;
+  font-weight: lighter;
+}
+
+/* ---------------------------------Order Food Section End----------------------------- */
+/* ---------------------------------Order Food Section End ------------------------------ */
+
+/* ---------------------------------About  Section Start ------------------------------ */
+.about-section {
+  background-image: url("img/7.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.about-img {
+  width: 50%;
+  margin-left: 5rem;
+}
+.about-content {
+  margin-top: 5rem;
+  padding: 5rem;
+}
+.about-paragraph {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  margin-right: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ---------------------------------About  Section End ------------------------------ */
+/* ---------------------------------About  Section End ------------------------------ */
+
+/* --------------------------------- Recipes  Section start ------------------------------ */
+
+.my-recipes-section {
+  margin-top: 5rem;
+}
+.first-content {
+  text-align: center;
+}
+.first-content-paragraph {
+  padding: 1rem;
+  font-size: 1.5rem;
+  height: 6rem;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+/* ----------------------------------------------------------- */
+
+.card-content {
+  display: flex;
+  width: 90vw;
+  margin-left: 2.5rem;
+  padding: 2rem;
+}
+.card-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.card-title {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+.card {
+  padding: 1.5rem;
+  margin-left: 2.5rem;
+  background: rgb(238, 235, 235);
+  border-radius: 2rem;
+}
+.card-paragraph {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* --------------------------------- Recipes  Section End ------------------------------ */
+/* --------------------------------- Recipes  Section End ------------------------------ */
+/* --------------------------------- Social  Section Start ------------------------------ */
