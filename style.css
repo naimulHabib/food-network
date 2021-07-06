@@ -154,6 +154,7 @@ h1 {
   margin-left: 2.5rem;
   background: rgb(238, 235, 235);
   border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(226, 215, 215);
 }
 .card-paragraph {
   font-size: 1.2rem;
@@ -163,3 +164,34 @@ h1 {
 /* --------------------------------- Recipes  Section End ------------------------------ */
 /* --------------------------------- Recipes  Section End ------------------------------ */
 /* --------------------------------- Social  Section Start ------------------------------ */
+
+.social-section {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+  justify-content: center;
+  /* background-color: teal; */
+}
+.social-content {
+  /* margin-left: 5rem; */
+  /* background-color: tomato; */
+  padding: 4rem;
+  margin: 3rem;
+}
+
+/* --------------------------------- Social  Section End ------------------------------ */
+/* --------------------------------- Social  Section End ------------------------------ */
+
+/* --------------------------------- Footer Start ------------------------------ */
+.footer {
+  height: 16rem;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(37, 36, 36);
+  color: #fff;
+}
+.footer-heading {
+  /* margin-top: 13rem; */
+  padding: 2rem;
+  word-spacing: 0.8rem;
+}
