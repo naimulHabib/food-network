@@ -8,7 +8,6 @@
 }
 body {
   font-family: "Oswald", sans-serif;
-  /* font-family: "Alegreya Sans", sans-serif; */
 }
 /* ------------------------------------Utility start -----------------------*/
 .u-tomato {
@@ -41,7 +40,6 @@ body {
   font-size: 1.5rem;
 }
 .navigation ul {
-  /* margin: 1.5rem; */
   margin-top: 1rem;
 }
 .navigation ul li {
@@ -193,7 +191,7 @@ h1 {
 }
 .rating-paragraph {
   font-size: 1.5rem;
-  /* justify-content: center; */
+
   text-align: center;
 }
 .rating-name {
@@ -210,11 +208,8 @@ h1 {
   width: 80vw;
   margin: 0 auto;
   justify-content: center;
-  /* background-color: teal; */
 }
 .social-content {
-  /* margin-left: 5rem; */
-  /* background-color: tomato; */
   padding: 4rem;
   margin: 3rem;
 }
@@ -231,7 +226,10 @@ h1 {
   color: #fff;
 }
 .footer-heading {
-  /* margin-top: 13rem; */
   padding: 2rem;
   word-spacing: 0.8rem;
 }
+
+/* Thanks programming-hero Team */
+/* Thanks programming-hero Team */
+/* Thanks programming-hero Team */
