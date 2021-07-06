@@ -163,6 +163,46 @@ h1 {
 
 /* --------------------------------- Recipes  Section End ------------------------------ */
 /* --------------------------------- Recipes  Section End ------------------------------ */
+
+/* --------------------------------- Review  Section start ------------------------------ */
+
+.rating-heading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+}
+.rating-section {
+  /* background-color: tomato; */
+  display: flex;
+  width: 95vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+.rating-content {
+  margin-left: 2.5rem;
+  padding: 2rem;
+}
+.middel-img {
+  margin-left: 5rem;
+}
+.rating-star {
+  color: orange;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.rating-paragraph {
+  font-size: 1.5rem;
+  /* justify-content: center; */
+  text-align: center;
+}
+.rating-name {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+/* --------------------------------- Review  Section End ------------------------------ */
+
 /* --------------------------------- Social  Section Start ------------------------------ */
 
 .social-section {
